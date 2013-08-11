@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'leap_tunes'
+
+LeapTunes.start
