@@ -1,24 +1,28 @@
 # LeapTunes
 
-TODO: Write a gem description
+LeapTunes enables you to control iTunes by your gestures.
+
+- http://www.youtube.com/watch?v=Ktx_m4iwg38
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'leap_tunes'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install leap_tunes
+```sh
+git clone git@github.com:katsuma/leap_tunes.git
+cd leap_tunes
+bundle
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+```sh
+ruby -Ilib bin/leap_tunes
+```
+Currently LeapTunes supports only 2 gestures.
+
+- `Put your 5 fingers` to start/pause current track
+- `Put your 2 fingers` to play next track
 
 ## Contributing
 
